@@ -19,7 +19,8 @@ li {
 
 header,
 .second-top,
-.second-bottom {
+.second-bottom,
+.third-inner {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -201,4 +202,25 @@ header button {
   line-height: 38px; /* 126.667% */
   letter-spacing: -0.3px;
   margin-top: 26px;
+}
+
+/* THIRD SECTION */
+.third-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding: 120px 0;
+}
+
+.third-inner p {
+  color: #fb8958;
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: -0.4px;
+  margin-top: 20px;
 }
