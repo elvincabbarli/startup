@@ -5,7 +5,7 @@ import right from '../assets/hire-right.png'
 const Seventh = () => {
   return (
     <section className="seventh">
-      <img src={heroleft} alt="" />
+      <img className="hero-left" src={heroleft} alt="" />
       <div className="seventh-middle">
         <h1>We are hiring!</h1>
         <p>
@@ -14,7 +14,7 @@ const Seventh = () => {
         </p>
         <button>See current openings</button>
       </div>
-      <img src={right} alt="" />
+      <img className="hero-right" src={right} alt="" />
     </section>
   );
 };

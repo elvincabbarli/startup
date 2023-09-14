@@ -7,9 +7,9 @@ const Sixth = () => {
     return (
         <section className="third">
             <div className="third-inner">
-                <img src={leftt} alt="" />
+                <img className='left-img' src={leftt} alt="" />
                 <p>Startups create a world that actually is better. Any problem that can be solved, will be solved by a startup, and that is a huge opportunity.</p>
-                <img src={rightt} alt="" />
+                <img className='right-img' src={rightt} alt="" />
             </div>
         </section>
     )

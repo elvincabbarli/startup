@@ -336,6 +336,42 @@ input {
   margin-top: 20px;
 }
 
+.left-img {
+  animation: left 3s ease-in-out infinite;
+}
+
+.right-img {
+  animation: right 3s ease-in-out infinite;
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(-15px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes right {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(15px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 /* FOURTH SECTION */
 
 .fourth-bottom {
@@ -465,7 +501,7 @@ input {
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  max-width: 450px;
+  max-width: 400px;
   width: 100%;
 }
 
@@ -507,15 +543,73 @@ input {
   line-height: 18px; /* 100% */
 }
 
+.hero-left {
+  animation: heroleft 3s ease-in-out infinite;
+}
+
+.hero-right {
+  animation: heroright 3s ease-in-out infinite;
+}
+
+@keyframes heroleft {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes heroright {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .first-right img {
     max-width: 500px;
   }
 
   .first-left {
     margin-left: 4%;
+  }
+
+  .second-top, .fourth-top{
+    justify-content: space-around;
+    padding: 0 20px;
+  }
+
+  .seventh {
+    padding: 30px 0;
+    justify-content: space-evenly;
+  }
+
+  .third-inner {
+    padding: 30px 0;
+  }
+
+  .fourth-bottom{
+    justify-content: center;
+  }
+
+  .second-bottom{
+    justify-content: center;
   }
 }
 
@@ -542,6 +636,12 @@ input {
 }
 
 @media screen and (max-width: 675px) {
+  p,
+  h1,
+  h2 {
+    text-align: center;
+  }
+
   .navbar-toggler {
     display: flex;
   }
@@ -565,7 +665,6 @@ input {
     transition: 0.6s;
     transform: translateY(-200%);
     height: 90vh;
-    /* justify-content: space-evenly; */
     gap: 10%;
     padding-left: 0;
     align-items: flex-start;
@@ -595,7 +694,6 @@ input {
 
   .header-wrapper ul {
     height: 90vh;
-    /* padding: 30px 0; */
   }
 
   .header-container li {
@@ -660,12 +758,6 @@ input {
     flex-direction: column;
   }
 
-  p,
-  h1,
-  h2 {
-    text-align: center;
-  }
-
   .second-bottom {
     justify-content: center;
   }
@@ -673,5 +765,12 @@ input {
   .second-top,
   .fourth-top {
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero-left,
+  .hero-right {
+    width: 100%;
   }
 }

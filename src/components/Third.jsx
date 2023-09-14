@@ -7,9 +7,9 @@ const Third = () => {
     return (
         <section className="third">
             <div className="third-inner">
-                <img src={leftt} alt="" />
+                <img className='left-img' src={leftt} alt="" />
                 <p>We love solving problems!</p>
-                <img src={rightt} alt="" />
+                <img className='right-img' src={rightt} alt="" />
             </div>
         </section>
     )
