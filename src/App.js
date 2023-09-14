@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import Fourth from "./components/Fourth";
 import Navbar from "./components/Navbar";
 import Second from "./components/Second";
+import Seventh from "./components/Seventh";
+import Sixth from "./components/Sixth";
 import Third from "./components/Third";
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <Third />
         <Fourth />
         <Fifth />
+        <Sixth />
+        <Seventh />
       <Footer />
     </div>
   );

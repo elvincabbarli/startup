@@ -1,132 +1,130 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  li {
-    list-style-type: none;
-  }
-  
-  /* @font-face {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* @font-face {
       font-family: Circular;
       src: url(../fonts/Circular\ Std\ Font.otf);
   } */
-  
-  header,
-  .second-top,
-  .second-bottom,
-  .third-inner,
-  .fourth-top,
-  .fourth-bottom {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 30px;
-    flex-wrap: wrap;
-  }
-  
-  header nav {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-  
-  header a {
-    color: #3d4f5c;
-    /* font-family: Circular; */
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px; /* 100% */
-    letter-spacing: -0.18px;
-  }
-  
-  header button {
-    border-radius: 32.5px;
-    border: 1px solid #46b8c8;
-    color: #46b8c8;
-    text-align: center;
-    /* font-family: Circular Std; */
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    background: transparent;
-    padding: 10px 15px;
-  }
 
+header,
+.second-top,
+.second-bottom,
+.third-inner,
+.fourth-top,
+.fourth-bottom {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 
-  /* first */
-  .first {
-    display: flex;
-    position: relative;
-    min-height: 90vh;
-    align-items: center;
-  }
-  
-  .first-left {
-    max-width: 620px;
-    margin-left: 10%;
-  }
-  
-  .first-left h1 {
-    color: #3d4f5c;
-    /* font-family: Circular Std; */
-    font-size: 85px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 85px; /* 100% */
-    letter-spacing: -1.7px;
-  }
-  
-  .first-left p {
-    color: #fb8958;
-    /* font-family: Circular Std; */
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; /* 125% */
-    letter-spacing: -0.24px;
-    margin: 30px 0;
-  }
-  
-  .first-left button {
-    border-radius: 32.5px;
-    background: #46b8c8;
-    max-width: 157px;
-    height: 45px;
-    color: #fff;
-    /* font-family: Circular Std; */
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px; /* 100% */
-    letter-spacing: -0.18px;
-    border: none;
-    cursor: pointer;
-    padding: 10px 15px;
-  }
-  
-  .first-right img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    max-width: 700px;
-    width: 100%;
-  }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
 
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 
-  /* SECOND SEC */
+header a {
+  color: #3d4f5c;
+  /* font-family: Circular; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
+  letter-spacing: -0.18px;
+}
+
+header button {
+  border-radius: 32.5px;
+  border: 1px solid #46b8c8;
+  color: #46b8c8;
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  background: transparent;
+  padding: 10px 15px;
+}
+
+/* first */
+.first {
+  display: flex;
+  position: relative;
+  min-height: 90vh;
+  align-items: center;
+}
+
+.first-left {
+  max-width: 620px;
+  margin-left: 10%;
+}
+
+.first-left h1 {
+  color: #3d4f5c;
+  /* font-family: Circular Std; */
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px; /* 100% */
+  letter-spacing: -1.7px;
+}
+
+.first-left p {
+  color: #fb8958;
+  /* font-family: Circular Std; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+  letter-spacing: -0.24px;
+  margin: 30px 0;
+}
+
+.first-left button {
+  border-radius: 32.5px;
+  background: #46b8c8;
+  max-width: 157px;
+  height: 45px;
+  color: #fff;
+  /* font-family: Circular Std; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 100% */
+  letter-spacing: -0.18px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.first-right img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 700px;
+  width: 100%;
+}
+
+/* SECOND SEC */
 
 .second,
 .fourth {
@@ -216,37 +214,194 @@
 
 /* THIRD SECTION */
 .third-inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 35px;
-    padding: 120px 0;
-  }
-  
-  .third-inner p {
-    color: #fb8958;
-    text-align: center;
-    /* font-family: Circular Std; */
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px; /* 125% */
-    letter-spacing: -0.4px;
-    margin-top: 20px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding: 120px 0;
+}
 
-  /* FOURTH SECTION */
+.third-inner p {
+  color: #fb8958;
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: -0.4px;
+  margin-top: 20px;
+}
+
+/* FOURTH SECTION */
 
 .fourth-bottom {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-top: 80px;
-    flex-wrap: wrap;
-  }
-  .fourth-bottom-card {
-    max-width: 580px;
-    width: 100%;
-    min-height: 200px;
-  }
-  
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+.fourth-bottom-card {
+  max-width: 580px;
+  width: 100%;
+  min-height: 200px;
+}
+
+/* FIFTH SECTION */
+
+.fifth {
+  padding: 140px 0;
+}
+
+.fifth h1 {
+  color: #3d4f5c;
+  /* font-family: Circular Std; */
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 100% */
+  letter-spacing: -0.5px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fifth-card p {
+  color: #3d4f5c;
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.16px;
+}
+
+.fifth-card img {
+  max-width: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.fifth-card button {
+  width: 107px;
+  height: 45px;
+  padding: 14px 30px;
+  color: #46b8c8;
+  background: transparent;
+  border-radius: 32.5px;
+  border: 1px solid #46b8c8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 100% */
+}
+
+.fifth-card-h2 {
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 93.75% */
+  letter-spacing: -0.32px;
+}
+
+.fifth-1 {
+  color: #a9bc87;
+}
+
+.fifth-2 {
+  color: #8bb5c9;
+}
+
+.fifth-3 {
+  color: #00a0b6;
+}
+
+.fifth-4 {
+  color: #8b60d3;
+}
+
+.fifth-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.fifth-card {
+  max-width: 588px;
+  width: 100%;
+  height: 554px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 8px 35px 0px rgba(187, 169, 142, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+/* seventh */
+.seventh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fbfafa;
+  padding: 140px 0;
+  flex-wrap: wrap;
+}
+
+.seventh-middle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.seventh-middle h1 {
+  color: #3d4f5c;
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 100% */
+  letter-spacing: -1px;
+}
+
+.seventh-middle p {
+  color: #fb8958;
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+  letter-spacing: -0.24px;
+}
+
+.seventh-middle button {
+  max-width: 243px;
+  width: 100%;
+  border-radius: 32.5px;
+  background: #46b8c8;
+  height: 45px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 100% */
+}
