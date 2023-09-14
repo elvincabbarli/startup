@@ -42,7 +42,9 @@ const Header = () => {
           <ul className="nav-list">
             <li className="nav-item forum-nav">Startups</li>
             <li className="nav-item">Contact</li>
-            <button>Work with us!</button>
+            <li className="nav-item">
+              <button>Work with us!</button>
+            </li>
           </ul>
         </div>
       </header>
