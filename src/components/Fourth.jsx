@@ -1,5 +1,4 @@
 import React from 'react'
-import './components.css'
 import lightt from '../assets/light.svg'
 
 const Fourth = () => {

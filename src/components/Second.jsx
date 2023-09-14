@@ -1,5 +1,4 @@
 import React from 'react'
-import './components.css'
 import questionn from '../assets/question.svg'
 
 const Second = () => {

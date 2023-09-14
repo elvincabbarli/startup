@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./components.css";
 import logo from "../assets/logo.svg";
 
 const Header = () => {

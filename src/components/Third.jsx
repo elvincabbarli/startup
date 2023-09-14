@@ -1,5 +1,4 @@
 import React from 'react'
-import './components.css'
 import leftt from '../assets/left-thumb.svg'
 import rightt from '../assets/right-thumb.svg'
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import './components.css'
 import firstt from '../assets/1.png'
 
 const First = () => {
