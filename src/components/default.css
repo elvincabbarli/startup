@@ -103,6 +103,11 @@ textarea {
     text-align: center;
   }
 
+  .second-bottom-card h1::after, .fourth-bottom-card h1::after{
+    margin: 20px auto;
+    width: 50%;
+  }
+
   .navbar-toggler {
     display: flex;
   }
@@ -267,9 +272,13 @@ textarea {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .hero-left,
   .hero-right {
     width: 100%;
+  }
+
+  .eight , footer{
+    padding: 25px 0;
   }
 }
