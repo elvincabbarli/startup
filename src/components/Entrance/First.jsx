@@ -1,5 +1,6 @@
 import React from 'react'
-import firstt from '../assets/1.png'
+import firstt from '../../assets/1.png'
+import './Entrance.css'
 
 const First = () => {
     return (

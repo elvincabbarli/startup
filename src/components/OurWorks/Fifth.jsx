@@ -1,8 +1,9 @@
 import React from 'react'
-import tolq from '../assets/tolq.png'
-import labs from '../assets/labs.png'
-import code from '../assets/code.png'
-import legal from '../assets/legal.png'
+import tolq from '../../assets/tolq.png'
+import labs from '../../assets/labs.png'
+import code from '../../assets/code.png'
+import legal from '../../assets/legal.png'
+import './OurWorks.css'
 
 const Fifth = () => {
     return (

@@ -1,6 +1,7 @@
 import React from "react";
-import heroleft from '../assets/hire-left.png'
-import right from '../assets/hire-right.png'
+import heroleft from '../../assets/hire-left.png'
+import right from '../../assets/hire-right.png'
+import './Hiring.css'
 
 const Seventh = () => {
   return (

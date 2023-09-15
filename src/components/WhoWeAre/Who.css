@@ -1,0 +1,127 @@
+/* SECOND SEC */
+
+.second,
+.fourth,
+.seventh {
+  background: #fbfafa;
+  padding: 140px 0;
+}
+.second-top,
+.fourth-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.second-top h1,
+.fourth-top h1 {
+  color: #3d4f5c;
+  /* font-family: Circular Std; */
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 100% */
+  letter-spacing: -1px;
+}
+
+.second-top p {
+  color: #fb8958;
+  /* font-family: Circular Std; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+  letter-spacing: -0.24px;
+  margin-top: 35px;
+}
+
+.second-top-left {
+  max-width: 680px;
+  width: 100%;
+}
+
+.second-top-right img,
+.fourth-top-right img {
+  animation: circle 4s ease-out infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  11% {
+    transform: rotate(45deg);
+  }
+  22% {
+    transform: rotate(90deg);
+  }
+  33% {
+    transform: rotate(135deg);
+  }
+  44% {
+    transform: rotate(180deg);
+  }
+  55% {
+    transform: rotate(225deg);
+  }
+  66% {
+    transform: rotate(270deg);
+  }
+  77% {
+    transform: rotate(315deg);
+  }
+  88% {
+    transform: rotate(360deg);
+  }
+}
+
+.second-bottom {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  /* gap: 100px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.second-bottom-card {
+  max-width: 320px;
+  width: 100%;
+  min-height: 200px;
+}
+
+.second-bottom-card h1,
+.fourth-bottom-card h1 {
+  color: #fb8958;
+  /* font-family: Circular Std; */
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 100% */
+  letter-spacing: -0.3px;
+}
+
+.second-bottom-card h1::after,
+.fourth-bottom-card h1::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background: #3d4f5c;
+  display: block;
+  margin-top: 20px;
+}
+
+.second-bottom-card p,
+.fourth-bottom-card p {
+  color: #3d4f5c;
+  /* font-family: Circular Std; */
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 126.667% */
+  letter-spacing: -0.3px;
+  margin-top: 26px;
+}
+
+

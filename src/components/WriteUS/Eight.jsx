@@ -1,5 +1,6 @@
 import React from "react";
-import rocket from "../assets/rocket.svg";
+import rocket from "../../assets/rocket.svg"
+import './Write.css'
 
 const Eight = () => {
   return (

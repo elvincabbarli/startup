@@ -1,6 +1,6 @@
 import React from 'react'
-import leftt from '../assets/left-thumb.svg'
-import rightt from '../assets/right-thumb.svg'
+import leftt from '../../assets/left-thumb.svg'
+import rightt from '../../assets/right-thumb.svg'
 
 const Sixth = () => {
     return (

@@ -1,0 +1,113 @@
+
+header,
+.second-top,
+.second-bottom,
+.third-inner,
+.fourth-top,
+.fourth-bottom,
+.eight-inner {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 4px #ccc;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.header-container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 95.39px;
+}
+
+.header-wrapper ul {
+  margin-bottom: 0;
+  height: 100%;
+}
+
+.navbar-brand {
+  color: #111;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  width: 201px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #111111;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler {
+  display: none;
+  flex-direction: column;
+  height: min-content;
+  cursor: pointer;
+}
+
+.navbar-toggler .bar {
+  width: 30px;
+  height: 4px;
+  margin-bottom: 7px !important;
+  background: #000;
+  border-radius: 10%;
+  transition: 0.4s;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-list button {
+  border-radius: 32.5px;
+  border: 1px solid #46b8c8;
+  width: 185px;
+  height: 45px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #46b8c8;
+  text-align: center;
+  /* font-family: Circular Std; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nav-list li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #22333b;
+}
+
+.forum-nav {
+  position: relative;
+}
+
+.forum-nav > div {
+  cursor: pointer;
+}

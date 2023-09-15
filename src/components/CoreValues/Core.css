@@ -1,0 +1,14 @@
+/* FOURTH SECTION */
+
+.fourth-bottom {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+  }
+  .fourth-bottom-card {
+    max-width: 580px;
+    width: 100%;
+    min-height: 200px;
+  }

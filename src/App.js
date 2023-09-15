@@ -1,14 +1,14 @@
-import Eight from "./components/Eight";
-import Fifth from "./components/Fifth";
-import First from "./components/First";
-import Footer from "./components/Footer";
-import Fourth from "./components/Fourth";
-import Navbar from "./components/Navbar";
-import Second from "./components/Second";
-import Seventh from "./components/Seventh";
-import Sixth from "./components/Sixth";
-import Third from "./components/Third";
-import './components/components.css'
+import Eight from "./components/WriteUS/Eight";
+import Fifth from "./components/OurWorks/Fifth";
+import First from "./components/Entrance/First";
+import Footer from "./components/Footer/Footer";
+import Fourth from "./components/CoreValues/Fourth";
+import Navbar from "./components/Navbar/Navbar";
+import Second from "./components/WhoWeAre/Second";
+import Seventh from "./components/Hiring/Seventh";
+import Sixth from "./components/Responsibilty/Sixth";
+import Third from "./components/SolvingProblems/Third";
+import './components/default.css'
 
 function App() {
   return (

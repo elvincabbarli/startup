@@ -1,5 +1,6 @@
 import React from 'react'
-import questionn from '../assets/question.svg'
+import questionn from '../../assets/question.svg'
+import './Who.css'
 
 const Second = () => {
   return (

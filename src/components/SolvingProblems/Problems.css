@@ -1,0 +1,57 @@
+/* THIRD SECTION */
+.third-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 120px 0;
+  }
+  
+  .third-inner p {
+    color: #fb8958;
+    text-align: center;
+    /* font-family: Circular Std; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+    letter-spacing: -0.4px;
+    margin-top: 20px;
+  }
+  
+  .left-img {
+    animation: left 3s ease-in-out infinite;
+  }
+  
+  .right-img {
+    animation: right 3s ease-in-out infinite;
+  }
+  
+  @keyframes left {
+    0% {
+      transform: translateX(0px);
+    }
+  
+    50% {
+      transform: translateX(-15px);
+    }
+  
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+  @keyframes right {
+    0% {
+      transform: translateX(0px);
+    }
+  
+    50% {
+      transform: translateX(15px);
+    }
+  
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
