@@ -51,3 +51,15 @@
   right: 0px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 426px) {
+    .assistant{
+        width: 90px;
+        height: 90px;
+    }
+
+    .as-inner {
+        width: 56px;
+        height: 55px;
+    }
+}
