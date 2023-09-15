@@ -9,10 +9,11 @@ import Seventh from "./components/Hiring/Seventh";
 import Sixth from "./components/Responsibilty/Sixth";
 import Third from "./components/SolvingProblems/Third";
 import './components/default.css'
+import Assistant from "./components/Assistant/Assistant";
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
       <Navbar />
       <First />
       <Second />
@@ -23,6 +24,7 @@ function App() {
       <Seventh />
       <Eight />
       <Footer />
+      <Assistant />
     </div>
   );
 }
