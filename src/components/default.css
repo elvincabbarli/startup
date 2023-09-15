@@ -238,6 +238,35 @@ textarea {
   }
 }
 
+@media screen and (max-width: 426px) {
+  .first-left h1{
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .first-left p{
+    padding: 0 15px;
+  }
+
+  .second-bottom-card p, .fourth-bottom-card p , .seventh-middle p{
+    padding: 0 15px;
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .third-inner p{
+    font-size: 28px;
+    padding: 0 15px;
+    line-height: 35px;
+  }
+
+  .seventh-middle h1 , .eight h1{
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+
 @media screen and (max-width: 375px) {
   .hero-left,
   .hero-right {
