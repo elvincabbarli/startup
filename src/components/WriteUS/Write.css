@@ -1,4 +1,5 @@
 /* EIGHT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .eight {
   background-color: #ffc351;
@@ -40,7 +41,7 @@
 
 .eight h1 {
   color: #fff;
-  /* font-family: Circular Std; */
+  font-family: CB;
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
@@ -50,7 +51,7 @@
 
 .eight p {
   color: #fff;
-  /* font-family: Roboto; */
+  font-family: Roboto;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -91,7 +92,7 @@
 .eight input[type="submit"] {
   color: #fbfbfa;
   text-align: center;
-  /* font-family: Circular Std; */
+  font-family: CB;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;

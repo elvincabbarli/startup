@@ -17,7 +17,7 @@
 .second-top h1,
 .fourth-top h1 {
   color: #3d4f5c;
-  /* font-family: Circular Std; */
+  font-family: CB;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
@@ -27,7 +27,7 @@
 
 .second-top p {
   color: #fb8958;
-  /* font-family: Circular Std; */
+  font-family: CM;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -80,7 +80,6 @@
   margin-top: 80px;
   display: flex;
   align-items: center;
-  /* gap: 100px; */
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -94,7 +93,7 @@
 .second-bottom-card h1,
 .fourth-bottom-card h1 {
   color: #fb8958;
-  /* font-family: Circular Std; */
+  font-family: CB;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -115,7 +114,7 @@
 .second-bottom-card p,
 .fourth-bottom-card p {
   color: #3d4f5c;
-  /* font-family: Circular Std; */
+  font-family: CM;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;

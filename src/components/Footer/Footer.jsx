@@ -57,6 +57,7 @@ const Footer = () => {
 
           <div className="footer-4 col-lg-2 col-md-6 mx-auto mb-4">
             <h2>Follow us</h2>
+            <div className="social">
             <li>
               <a href="/">
                 <img src={twit} alt="" />
@@ -72,6 +73,7 @@ const Footer = () => {
                 <img src={insta} alt="" />
               </a>
             </li>
+            </div>
           </div>
         </div>
       </div>

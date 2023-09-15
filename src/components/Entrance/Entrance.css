@@ -14,7 +14,7 @@
   
   .first-left h1 {
     color: #3d4f5c;
-    /* font-family: Circular Std; */
+    font-family: CB;
     font-size: 85px;
     font-style: normal;
     font-weight: 700;
@@ -24,7 +24,7 @@
   
   .first-left p {
     color: #fb8958;
-    /* font-family: Circular Std; */
+    font-family: CM;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -39,7 +39,7 @@
     max-width: 157px;
     height: 45px;
     color: #fff;
-    /* font-family: Circular Std; */
+    font-family: CB;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;

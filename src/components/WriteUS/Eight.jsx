@@ -10,11 +10,12 @@ const Eight = () => {
           <h1>Are you ready to board this rocket ship?</h1>
           <p>Share your excitement with us.</p>
           <form action="">
-            <input type="text" placeholder="Name*" />
-            <input type="email" placeholder="Email*" />
+            <input type="text" placeholder="Name*" required />
+            <input type="email" placeholder="Email*" required />
             <textarea
               name=""
               id=""
+              required
               cols="30"
               rows="10"
               placeholder="Message*"
