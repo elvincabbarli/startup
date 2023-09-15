@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .assistant {
   position: fixed;
   bottom: 10px;
@@ -35,7 +37,7 @@
   background: url(../../assets/quest.svg);
   padding: 0 15px;
   color: #fff;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -43,6 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .close-open {
