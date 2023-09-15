@@ -41,12 +41,14 @@ const Footer = () => {
           </div>
 
           <div className="footer-3 col-lg-4 col-md-6 mx-auto mb-4">
-            <div className="footer-second">
+            <div className="footer-second footer-middle">
               <h2>Contact</h2>
-              <p>World Trade Center The Hague</p>
-              <p> Prinses Margrietplantsoen 33</p>
-              <p>2595 AM The Hague</p>
-              <p>The Netherlands</p>
+              <div>
+                <p>World Trade Center The Hague</p>
+                <p> Prinses Margrietplantsoen 33</p>
+                <p>2595 AM The Hague</p>
+                <p>The Netherlands</p>
+              </div>
               <li>
                 <a href="/">Send us an email</a>
               </li>

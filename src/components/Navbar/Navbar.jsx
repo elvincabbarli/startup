@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <div className="header-wrapper">
-      <header className="container">
+      <header className="">
         <div
           className={
             closeMenu
